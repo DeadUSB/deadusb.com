@@ -1,5 +1,8 @@
 # DeadUSB.github.io
-my site
+DeadUSB Website
 
+Welcome
 
-idk what else you want to knwo
+tbh idk why you're here just go to the website
+
+https://deadusb.github.io/

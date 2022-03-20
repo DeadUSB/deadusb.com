@@ -2,18 +2,23 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <title>DeadUSB Website</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DeadUSB Website</title>
         <link rel="icon" href="\images\icon.png">
+
         <script type="text/javascript">
+        
+            var randomkey = Math.floor(Math.random() * (90 - 65)) + 65;
+            // document.getElementById("demo").innerHTML = randomkey;
+            
             document.addEventListener('keydown', function(event) {
-                if(event.keyCode == Math.floor(Math.random() * 90) + 65) {
-                    alert('you win!');
-                    reload();
+                if(event.keyCode == randomkey) {
+                    alert('You Win!');
+                    location.reload();
                 }
             });
-        </script>
+          </script>
     </head>
 
     <body>

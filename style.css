@@ -5,6 +5,22 @@ body {
     text-align: center;
 }
 
+h3 {
+    color: skyblue;
+}
+
 a {
-    color: blue;
+    color: lightskyblue;
+}
+
+ul {
+    padding:0;
+    width:100%;
+    text-align:center;
+}
+
+li {
+    margin:10px;
+    list-style-type: none;
+    color: lightskyblue;
 }
