@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>DeadUSB Website</title>
+        <script type="text/javascript">
+            document.addEventListener('keydown', function(event) {
+                if(event.keyCode == Math.floor(Math.random() * 90) + 65) {
+                    alert('you win!');
+                    reload();
+                }
+            });
+        </script>
+    </head>
+
+    <body>
+        <h1>DeadUSB Website</h1>
+
+        <h2><a href="index.html">Main Page</a> <a href="game1.html">Guessing Game</a> <a href="game2.html">Pong Game</a></h2>
+
+        <p>welcome to the guessing game, a key on your keyboard ranging from a-z has been chosen <br> if you press the right one, you win and the page is reloaded</p>
+    </body>
+</html>
