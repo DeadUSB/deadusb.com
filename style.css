@@ -9,8 +9,14 @@ h3 {
     color: skyblue;
 }
 
-a {
+a:visited, a:link {
     color: lightskyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: azure;
+    text-decoration: none;
 }
 
 ul {
@@ -23,4 +29,77 @@ li {
     margin:10px;
     list-style-type: none;
     color: lightskyblue;
+}
+
+.breakout {
+    background-color: #202020;
+    flex-grow: 5;
+}
+
+.breakout:iframe {
+    border: "none";
+}
+
+.header {
+    overflow: hidden;
+    background-color: #3f3f3f;
+    padding: 20px 10px;
+}
+
+/* Style the header links */
+.header a {
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+    background-color: rgb(105, 105, 105);
+    color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+    background-color: skyblue;
+    color: rgb(255, 255, 255);
+}
+
+/* Float the link section to the right */
+.header-right {
+    float: right;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+}
+
+.links {
+    background-color: #111111;
+    text-align: right;
+    width: 100px;
+}
+
+
+.bio {
+    padding: 10px;
+    background-color: #202020;
+    flex-grow: 5;
+}
+
+.projects {
+    display: flex;
+    align-items: stretch;
 }
