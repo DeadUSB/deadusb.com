@@ -27,9 +27,8 @@
     <div class="header">
         <a href="./" class="logo">DeadUSB</a>
         <div class="header-right">
-            <a href="./">Home</a>
-            <a href="game1">Guessing Game</a>
-            <a class="active" href="game2">Breakout</a>
+            <a id="non-mobile" href="game1">Guessing Game</a>
+            <a id="non-mobile" class="active" href="game2">Breakout</a>
             <a href="blog">Blog</a>
         </div>
     </div>
@@ -37,9 +36,9 @@
     <body>
         <div class="flex-container">
             <div class="breakout">
-                <iframe src="ponggame.html" height="330p" width="480p" title="Breakout"></iframe>
+                <iframe src="ponggame.html" height="330p" width="480p" title="Breakout" id="non-mobile"></iframe>
 
-                <p class="bio">hey arrow keys work btw <br><sup>you might need to click on the game</sup></p>
+                <p class="bio">hey arrow keys work btw <br><sup>you might need to click on the game</sup><br>if you dont see anything, you're not supposed to be here anyways.</p>
             </div>
             <div class="links">
                 <ul>
@@ -53,4 +52,9 @@
             </div>
         </div>
     </body>
+
+    <div class="footer">
+        <p>hey there</p>
+    </div>
+
 </html>
