@@ -5,4 +5,4 @@ Welcome
 
 tbh idk why you're here just go to the website
 
-https://deadusb.github.io/
+https://deadusb.com
