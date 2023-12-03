@@ -1,4 +1,4 @@
-# DeadUSB.github.io
+# deadusb.com
 DeadUSB Website
 
 Welcome
