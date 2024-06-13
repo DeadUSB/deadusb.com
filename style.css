@@ -3,7 +3,7 @@
    2. Classes
    3. IDs
    3. Misc
- */
+*/
 
  /* 1. Default Tags */
 body {
@@ -12,6 +12,13 @@ body {
     font-family: monospace;
     background-color: black;
     color: white;
+}
+
+div {
+    border: black;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: 0px;
 }
 
 a:visited, a:link {
@@ -27,48 +34,32 @@ a:hover {
 /* Header */
 .header {
     background-color: #6d0dad;
-    width: 1200px;
-}
-
-.header div {
-    overflow: hidden;
-    padding: 20px 10px;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .header a {
     color: rgb(255, 255, 255);
     padding: 20px;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
 }
 
 .header a:hover {
     color: black;
 }
 
-.header a.logo {
+.header .logo {
     font-size: 25px;
     font-weight: bold;
-}
-
-/* Bio */
-
-.bio {
-    background-color: #202020;
-}
-
-.bio div {
-    padding: 10px;
 }
 
 /* Links */
 .links {
     background-color: #313131;
     text-align: center;
-    width: 100%;
+    padding-top: 1px;
+    padding-bottom: 1px;
     padding-left: 0;
 }
 
@@ -83,18 +74,30 @@ a:hover {
     padding: 0;
 }
 
+/* Bio */
+.bio {
+    background-color: #202020;
+    padding: 10px;
+}
+
+.bio p {
+    margin: 0;
+}
+
 /* Footer */
 .footer {
     background-color: rgb(19, 19, 19);
+    justify-content: space-between;
+    display: flex;
 }
 
-.footer td {
-    margin: auto;
-    padding: 7px 10px;
-    bottom: 0;
-    color: white;
-    text-align: center;
-    width: 33%;
+.footer ul {
+    display: contents;
+    list-style-type: none;
+}
+
+.footer li {
+    padding: 10px;
 }
 
 /* 3. IDs */
