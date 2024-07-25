@@ -88,7 +88,7 @@ a:hover {
 }
 
 .bio a {
-    color: #ce85ff;
+    color: #c267ff;
 }
 
 .bio p {
@@ -116,6 +116,19 @@ a:hover {
     display: none;
 }
 
+#skip {
+    color: white;
+    padding: 10px;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+}
+
+#skip:focus {
+    left: 25%;
+    transform: translateX(-75%);
+    opacity: 1;
+}
 
 /* 4. Misc */
 @media screen and (max-width: 600px) {
