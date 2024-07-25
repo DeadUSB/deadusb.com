@@ -22,11 +22,11 @@ div {
 }
 
 a:visited, a:link {
-    color: #8e16df;
+    color: #b44ef8;
 }
 
 a:hover {
-    color: rgb(189, 78, 253);
+    color: #bd60fc;
     text-decoration: none;
 }
 
@@ -52,6 +52,13 @@ a:hover {
 .header .logo {
     font-size: 25px;
     font-weight: bold;
+}
+
+.icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
 }
 
 /* Links */
@@ -105,12 +112,6 @@ a:hover {
     display: none;
 }
 
-#icon {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-    object-fit: contain;
-}
 
 /* 4. Misc */
 @media screen and (max-width: 600px) {
