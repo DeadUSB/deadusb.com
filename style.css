@@ -87,6 +87,10 @@ a:hover {
     padding: 10px;
 }
 
+.bio a {
+    color: #ce85ff;
+}
+
 .bio p {
     margin: 0;
 }
