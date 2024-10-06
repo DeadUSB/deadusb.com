@@ -35,13 +35,12 @@ a:hover {
 .header {
     background-color: #6d0dad;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header a {
     color: rgb(255, 255, 255);
-    padding: 20px;
     text-decoration: none;
 }
 
@@ -131,7 +130,10 @@ a:hover {
 }
 
 /* 4. Misc */
-@media screen and (max-width: 600px) {
+
+/* I dont actually have any non-mobile content, but i'll leave this here. */
+
+/* @media screen and (max-width: 600px) {
     #non-mobile {
         display: none;
     }
@@ -139,4 +141,4 @@ a:hover {
     #mobile {
         display: contents;
     }
-}
+} */
